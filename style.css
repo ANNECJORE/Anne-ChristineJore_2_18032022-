@@ -1,0 +1,164 @@
+html
+{
+    font-family:'Raleway';
+}
+h1
+{
+    font-weight:bold ;
+    font-size:large ;
+}
+h2
+{
+    font-weight: bold;
+    font-size:smaller;
+}
+p
+{
+     font-size:small;   
+}
+#conteneur
+{
+display:flex;
+justify-content: space-between;
+}
+.nav-list {
+    display: flex;
+}    
+.nav-list li {
+    list-style-type : none;  
+    padding : 20px;
+}
+.nav-list a {
+text-decoration: none;
+}
+#formulaire
+{
+    display: flex ;
+    height: 60px;
+}
+.iconegeo {
+    height: 35px;width:25px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: #e9e4e4;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.rechercher
+{
+    color:white;
+    font-size: 11px; 
+    height: 40px;
+    width: 90px; 
+    border-radius: 0px 10px 10px 0px ;
+    border: 6px ; color rgb(75,83,203); 
+    background-color: rgb(75,83,203);
+}
+.geol
+{
+    font-weight: bold;
+    font-size: smaller;
+    height:40px;
+    width: 180px;
+}
+#conteneurfiltres
+{
+    font-weight: bold; 
+    display:flex;
+} 
+.filtres
+{
+    font-weight: bold;
+    font-size: small;
+}
+#conteneureco,#conteneurdog, #conteneurcoeur,#conteneurfam
+{
+    display:flex;
+}
+.Familial, .Romantique, .Economique,.Animaux
+{
+    font-weight: bold;
+    border-color: #cdd0d2;
+    border-radius: 0px 10px 10px 0px;
+    height:30px;
+    background-color: white;
+    margin-right: 5px;
+}
+.Familial:hover
+{
+    background-color: rebeccapurple;
+}
+.Animaux:hover
+{
+    background-color: red;
+}
+.Romantique:hover
+{
+    background-color: greenyellow;
+}
+.Economique:hover
+{
+    background-color: red;
+}
+.iconéco,.fam, .coeur, .iconedog, .info
+{
+    color:rgb(75,83,203);
+    font-size: smaller;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 2px;
+    border-radius: 10px 0px 0px 10px ;
+    background-color: #a3d6ed ;
+    width:30px;
+    margin-left: 5px;
+}
+.info
+{
+    background-color: white;
+    color: blue;
+}
+.photo1
+{
+    border: 3px #e9e4e4 solid; 
+    -moz-border-radius : 10x; 
+    -webkit-border-image: 10px;
+    border-radius: 10px;
+    height: auto;
+    width:150px;
+}
+img
+{   
+    -moz-border-radius : 10x; 
+    -webkit-border-image: 10px;
+    border-radius: 10px;
+    width:150px;
+    height:auto;
+}
+#Bleus4
+{
+    display: flex;
+}
+.bleu
+{   color: blue;
+    font-size: x-small;
+}
+.gris{
+    color: grey;
+    font-size: x-small;
+}
+.act1
+{
+    width:150px;
+    height: 210px;
+}
+#basdepage
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e9e4e4;    
+}
+.pied1 li, .pied2 li, .pied3 li 
+{
+    list-style-type: none;  
+}

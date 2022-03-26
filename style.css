@@ -130,25 +130,34 @@ text-decoration: none;
     width:70px;
     height: 35px;
 } */
-.port, .cannebiere,.mouettes,.mer,.auberge
+.port, .cannebiere,.mouettes,.mer,.auberge,.amina
 {
 width:170px;
 height: 75px;
-border-image : 10px; 
+-moz-border-image : 10px; 
 border-image:10px;
 }
-.photo1,.photo2,.photo3,.photo4,.photo5
+.photo1,.photo2,.photo3,.photo4,.photo5,.photo6
 { 
     border:3px solid;
-    border-color:red ;
+    border-color:white ;
     border-radius: 10px 10px 0px 0px;
     width: 170px;
     height:140px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: white;
+    margin-left: 5px;
 } 
+
 #Hébergements
 {
     display: flex;
-    margin-left: 5px;
+    flex-wrap: wrap;
+    width:560px;
+    height:350px;
+    background-color: #e9e4e4 ;
+    border-radius: 10px 10px 10px 10px;
 }
 .bleu
 {   color: blue;
@@ -159,6 +168,34 @@ border-image:10px;
     color: grey;
     font-size: x-small;
 }
+.matin,.bleublanc,.hotes {
+    width: 100px;
+    height: 100px;
+}
+#soleil, #chambres,#toutbleu
+{
+    display: flex ;
+    border: 3px white solid;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom:10px ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+aside
+{
+    background-color:#e9e4e4 ;
+    border-radius: 10px 10px 10px 10px;
+    margin: 5px;
+    width: 250px;
+   height: 400px ;
+}
+.comment,.chb,.bb
+{
+    background-color: white;
+
+}
+
 .figure1
 {
     width:70px;

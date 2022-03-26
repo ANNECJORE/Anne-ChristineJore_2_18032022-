@@ -67,7 +67,7 @@ text-decoration: none;
     font-weight: bold; 
     display:flex;
 } 
-.filtres
+.filtres,figcaption
 {
     font-weight: bold;
     font-size: small;
@@ -118,24 +118,26 @@ text-decoration: none;
     background-color: white;
     color: blue;
 }
-.photo1
-{
-    border: 3px #e9e4e4 solid; 
-    -moz-border-radius : 10x; 
-    -webkit-border-image: 10px;
-    border-radius: 10px;
+#photo1
+{ 
+    border-radius: 10px 10px 0px 0px;
     height: auto;
     width:150px;
 }
-img
-{   
-    -moz-border-radius : 10x; 
-    -webkit-border-image: 10px;
-    border-radius: 10px;
-    width:150px;
-    height:auto;
+.cannebiere
+{
+  width:150px;
+  height: 75px;
+ -moz-border-image : 10x; 
+-webkit-border-image: 10px;
+border-radius: 10px 10px 0px 0px;
 }
-#Bleus4
+.photo1
+{ 
+border:3px solid; 
+border-color:red ;
+width:150px;
+} 
 {
     display: flex;
 }
@@ -147,10 +149,13 @@ img
     color: grey;
     font-size: x-small;
 }
-.act1
+.figure1
 {
     width:150px;
-    height: 210px;
+    height: 190px;
+    -moz-border-image: 10px;
+    border-radius: 10px;
+
 }
 #basdepage
 {

@@ -2,19 +2,28 @@ html
 {
     font-family:'Raleway';
 }
+@media screen and (max-width: 1280px)
+{
+    /* Rédigez vos propriétés CSS ici */
+}
+body
+{
+    margin-left: 45px;
+}
 h1
 {
-    font-weight:bold ;
-    font-size:large ;
+    font-weight:bolder ;
+    font-size: medium;
 }
 h2
 {
-    font-weight: bold;
-    font-size:smaller;
+    font-size: 18px;
+    font-weight: boldER;
+    margin-left: 15px;
 }
 p
 {
-     font-size:small;   
+     font-size: 14px;   
 }
 .logo
 {
@@ -32,7 +41,7 @@ justify-content: space-between;
 }    
 .nav-list li {
     list-style-type : none;  
-    padding : 20px;
+    padding-left:20px ;
 }
 .nav-list a {
 text-decoration: none;
@@ -40,43 +49,49 @@ text-decoration: none;
 #formulaire
 {
     display: flex ;
-    height: 60px;
+    height: 90px;
 }
 .iconegeo {
-    height: 35px;width:25px;
-    font-size: 20px;
+    height: 45px;width:40px;
+    font-size: 30px;
     text-align: justify;
-    background-color: #e9e4e4;
+    background-color:#e9e4e4 ;
     border-radius: 10px 0px 0px 10px;
     padding-left: 15px;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .rechercher
 {
     color:white;
-    font-size: 11px; 
-    height: 40px;
-    width: 90px; 
+    font-size: 16px; 
+    height: 55px;
+    width: 130px; 
     border-radius: 0px 10px 10px 0px ;
-    border: 6px ; color rgb(75,83,203); 
+    border: 6px rgb(75,83,203); 
     background-color: rgb(75,83,203);
 }
-.geol
-{
+.geol{
+    border:6px;
+    border-top:#a6a7a8;
+    border-bottom:#a6a7a8;
+    border-left:black;
+    height:55px;
+    width: 200px;
     font-weight: bold;
-    font-size: smaller;
-    height:40px;
-    width: 180px;
+    font-size: 16px;
 }
 #conteneurfiltres
 {
     font-weight: bold; 
     display:flex;
+    margin-bottom: 15px;
 } 
-.filtres,figcaption,.en_gras
+.filtres,.en_gras
 {
     font-weight: bold;
-    font-size: small;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 #conteneureco,#conteneurdog, #conteneurcoeur,#conteneurfam
 {
@@ -84,16 +99,21 @@ text-decoration: none;
 }
 .Familial, .Romantique, .Economique,.Animaux
 {
+    font-size: 16px;
     font-weight: bold;
-    border-color: #cdd0d2;
-    border-radius: 0px 10px 10px 0px;
-    height:30px;
+    border-color: #a8a9aa;
+    border-radius: 0px 20px 20px 0px;
+    height:45px;
     background-color: white;
     margin-right: 5px;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .Familial:hover
 {
     background-color: rebeccapurple;
+    width:auto
 }
 .Animaux:hover
 {
@@ -110,11 +130,11 @@ text-decoration: none;
 .iconéco,.fam, .coeur, .iconedog
 {
     color:rgb(75,83,203);
-    font-size: smaller;
+    font-size: medium;
     text-align: center;
-    padding-left: 8px;
-    padding-top: 2px;
-    border-radius: 10px 0px 0px 10px ;
+    padding-left: 5px;
+    padding-top:14px;
+    border-radius: 20px 0px 0px 20px ;
     background-color: #a3d6ed ;
     width:30px;
     margin-left: 5px;
@@ -124,40 +144,53 @@ text-decoration: none;
     background-color: white;
     color: blue;
 }
-/* #photo1
-{ 
-    border-radius: 10px 10px 0px 0px;
-    width:70px;
-    height: 35px;
-} */
+ 
 .port, .cannebiere,.mouettes,.mer,.auberge,.amina
 {
-width:170px;
-height: 75px;
--moz-border-image : 10px; 
+width:230px;
+height: 110px;
+border-top-left-radius : 15px; 
+border-top-right-radius: 15px;
 border-image:10px;
 }
 .photo1,.photo2,.photo3,.photo4,.photo5,.photo6
 { 
     border:3px solid;
     border-color:white ;
-    border-radius: 10px 10px 0px 0px;
-    width: 170px;
-    height:140px;
-    margin-right: 5px;
+    border-radius: 15px;
+    width: 230px;
+    height:180px;
+    margin-right: 15px;
     margin-top: 5px;
     background-color: white;
-    margin-left: 5px;
+    margin-left: 15px;
 } 
-
+figcaption
+{
+    width: 230px;
+    border-radius: 0px 0px 15px 15px;
+    font-size: medium;
+    font-weight: bold;
+}
+#section1{
+    display: flex;
+}
 #Hébergements
 {
     display: flex;
     flex-wrap: wrap;
-    width:560px;
-    height:350px;
-    background-color: #e9e4e4 ;
+    width:800px;
+    height:400px;
+    background-color:#e9e4e4;
     border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
+article
+{
+    background-color: #e9e4e4;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
 }
 .bleu
 {   color: blue;
@@ -168,48 +201,157 @@ border-image:10px;
     color: grey;
     font-size: x-small;
 }
-.matin,.bleublanc,.hotes {
-    width: 100px;
-    height: 100px;
+.matin
+{
+    width: 110px;
+    height: 110px;
+    padding-right: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 3px;
 }
-#soleil, #chambres,#toutbleu
+.bleublanc
+{
+    width: 120px;
+    height: 110px;
+    padding-right: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 3px;
+}
+
+.hotes {
+    width: 110px;
+    height: 110px;
+    padding-right: 4px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 3px;
+}
+
+#soleil
 {
     display: flex ;
     border: 3px white solid;
     background-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin-bottom:10px ;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    margin-top: 11px;
+    width: 260px;
+    height: 115px;
+}
+#chambres,#toutbleu
+{
+    display: flex ;
+    border: 3px white solid;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    width: 260px;
+    height: 115px;
 }
 aside
 {
     background-color:#e9e4e4 ;
     border-radius: 10px 10px 10px 10px;
-    margin: 5px;
-    width: 250px;
-   height: 400px ;
+    width: 300;
+   height: 500px ;
+   margin-left: 45px;
+   padding-left: 5px;
+}
+#popu{
+    display: flex;
+    justify-content: space-between;
+}
+.graph
+{
+    font-size: large;
+    margin-right: 25px;
+    margin-top: 15px;
 }
 .comment,.chb,.bb
 {
     background-color: white;
-
 }
-
-.figure1
+#group1,#group2
 {
-    width:70px;
-    height: 150px;
-    -moz-border-image: 10px;
-    border-radius: 10px;
+ 
+    width: 180px;
+    height: 300px;
+}
+.caption{
+    font-weight: bold;
+    font-size: small;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 20px;
+    padding-left: 15px;
+}
+figure{
+     box-shadow: 3px 3px 3px #e9e4e4 ;
+     border-radius: 10%;
+     width: 180px;
+     height:300px
+}
+.garde2, .pomeg
+{
+    height: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-left: 25px;
+}
+.vieux,.calan
+{
+    width:180px;
+    height: 250px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+    
+}
+.long
+{
+    width:180px;
+    height: 120px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 15px;
+}
+.pomègues
+{
+    width:180px;
+    height: 120px;
+   border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.frioul,.lagarde
+{
+    width:180px;
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#Activités
+{
+    display: flex;
 }
 #basdepage
 {
     display: flex;
     justify-content: space-around;
-    background-color: #e9e4e4;    
+    flex-direction: row;
+    background-color: #e9e4e4; 
+    position: absolute;
+    right: 0px;
+    left: 0px;   
+    margin-bottom: 0px;
 }
 .pied1 li, .pied2 li, .pied3 li 
 {
     list-style-type: none;  
+    margin: none;
 }
+

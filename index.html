@@ -18,7 +18,7 @@
     </div>
     <nav>
             <ul class="nav-list">
-                <li><a href="#Hébergements">Hébergements</a></li>
+                <li ><a href="#Hébergements">Hébergements</a></li>
                 <li><a href="#Activités">Activités</a></li>
             </ul>        
     </nav>  
@@ -44,22 +44,32 @@
     </head>
 <filtres> 
     <div id="conteneurfiltres"> 
-         <div class="filtres">Filtres</div> <!-- mettre en gras -->
-            <div id="conteneureco">   
-            <div class="iconéco"><i class="fas fa-money-bill-wave-alt"></i></div>
-            <div class="btneco"> <input type="submit" class="Economique" value="Economique"/></div>
+            <div class="filtres">Filtres</div> <!-- mettre en gras -->
+        <div id="conteneureco">  
+         <!-- <div class="inputicone"></div> -->
+            <div class="choix">
+            <!-- <div class="icone">  -->
+            <span class="icone"> <i class="fas fa-child"></i></span> 
+            <input class="preference" type="texte" value="Economique"/> 
+            </div>
         </div>    
-        <div id="conteneurfam">        
-            <div class="fam"><i class="fas fa-child"></i></div>
-            <div class="btnfam"><input type="submit" class="Familial" value="Familial"/></div>
+        <div id="conteneureco">    
+            <div class="choix">    
+            <span class="icone"><i class="fas fa-child"></i></span>
+            <input class="preference" value="Familial"/>
+            </div>
         </div>
-        <div id="conteneurcoeur">
-            <div class="coeur"> <i class="fa fa-heart" aria-hidden="true"></i></div>
-            <div><input type="submit" class="Romantique" value="Romantique"/></div>
+        <div id="conteneureco">
+           <div class="choix"> 
+            <span class="icone"> <i class="fa fa-heart" aria-hidden="true"></i></span>
+            <input class="preference" value="Romantique"/>
+            </div>
         </div>
-        <div id="conteneurdog">
-        <div class="iconedog"><i class="fa-solid fa-dog"></i></div>
-        <div><input type="submit" class="Animaux" value="Animaux autorisés"/> </div>
+        <div id="conteneureco">
+            <div class="choix"> 
+            <span class="icone"><i class="fa-solid fa-dog"></i></span>
+            <input class="preference2" value="Animaux autorisés"/> 
+            </div>
         </div>
     </div>
     </div>
@@ -73,8 +83,8 @@
     <article> 
     <h2> Hébergements à Marseille</h2> 
 <div id="Hébergements" class="dodo"> 
-    <div class="photo1">
-        <img src="cannebiere.jpg" class="cannebiere" alt="cannebiere"/> 
+    <div class="photo">
+        <img src="cannebiere.jpg" class="foto" alt="cannebiere"/> 
        <figcaption> Auberge La Cannebière </figcaption>
        <p>Nuit à partir de 25€</br>
             <span class="bleu"> 
@@ -86,8 +96,8 @@
             <span class="gris"> <i class="fa-solid fa-star "></i>
             </span></p>
     </div>   
-    <div class="photo2">
-        <img src="hotelport.jpg" class="port" alt="port"/> 
+    <div class="photo">
+        <img src="hotelport.jpg" class="foto" alt="port"/> 
        <figcaption>Hotel du port</figcaption>
        <p>Nuit à partir de 52€ </br>
             <span class="bleu"> 
@@ -98,8 +108,8 @@
                 <i class="fa-solid fa-star"></i>
             </span></p>
     </div>
-    <div class="photo3">
-        <img src="mouettes.jpg" class="mouettes" alt="mouettes"/> 
+    <div class="photo">
+        <img src="mouettes.jpg" class="foto" alt="mouettes"/> 
        <figcaption>Hôtel les mouettes</figcaption>
         <p>Nuit à partir de 76€ </br>
             <span class="bleu"> 
@@ -112,8 +122,8 @@
             </span>
         </p>
     </div>
-    <div class="photo4">
-        <img src="hotelmer.jpg" class="mer" alt="mer"/> 
+    <div class="photo">
+        <img src="hotelmer.jpg" class="foto" alt="mer"/> 
        <figcaption>Hôtel de la mer</figcaption>
         <p>Nuit à partir de 46€ </br>
             <span class="bleu"> 
@@ -126,8 +136,8 @@
             </span>
         </p>
     </div>
-    <div class="photo5">
-        <img src="auberge.jpg" class="auberge" alt="auberge"/> 
+    <div class="photo">
+        <img src="auberge.jpg" class="foto" alt="auberge"/> 
        <figcaption>Auberge Le Panier</figcaption>
         <p>Nuit à partir de 23€ </br>
             <span class="bleu"> 
@@ -141,7 +151,7 @@
         </p>
     </div>
     <div class="photo6">
-        <img src="hotelchez.jpg" class="amina" alt="amina"/> 
+        <img src="hotelchez.jpg" class="foto" alt="amina"/> 
        <figcaption>Hôtel chez Amina</figcaption>
         <p>Nuit à partir de 96€ </br>
             <span class="bleu"> 

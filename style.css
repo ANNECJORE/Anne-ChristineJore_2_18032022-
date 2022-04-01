@@ -52,7 +52,8 @@ text-decoration: none;
     height: 90px;
 }
 .iconegeo {
-    height: 45px;width:40px;
+    height: 45px;
+    width:40px;
     font-size: 30px;
     text-align: justify;
     background-color:#e9e4e4 ;
@@ -65,10 +66,10 @@ text-decoration: none;
     color:white;
     font-size: 16px; 
     height: 55px;
-    width: 130px; 
+    width: 120%; 
     border-radius: 0px 10px 10px 0px ;
-    border: 6px rgb(75,83,203); 
-    background-color: rgb(75,83,203);
+    border: 6px #065FFC solid; 
+    background-color: #065FFC;
 }
 .geol{
     border:6px;
@@ -84,68 +85,79 @@ text-decoration: none;
 {
     font-weight: bold; 
     display:flex;
-    margin-bottom: 15px;
-} 
+    height: 60px;
+    justify-content: flex-start;
+    } 
 .filtres,.en_gras
 {
     font-weight: bold;
     font-size: 16px;
     margin-top: 15px;
     margin-right: 15px;
+
 }
-#conteneureco,#conteneurdog, #conteneurcoeur,#conteneurfam
+#conteneureco
 {
     display:flex;
+    height: 35px;
 }
-.Familial, .Romantique, .Economique,.Animaux
+.preference
 {
-    font-size: 16px;
+    height:35px;
+    width: 120px;
+    border-radius: 20px 20px 20px 0px;
+    padding-left: 30px ;
     font-weight: bold;
-    border-color: #a8a9aa;
-    border-radius: 0px 20px 20px 0px;
-    height:45px;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-left: 17px;
+    border-color: #a6a7a8;
     background-color: white;
-    margin-right: 5px;
-    margin-right: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
 }
-.Familial:hover
+.preference2
 {
-    background-color: rebeccapurple;
-    width:auto
+    height:35px;
+    width: 145px;
+    border-radius: 20px 20px 20px 0px;
+    padding-left: 30px ;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 17px;
+    border-color: #a6a7a8;
+    background-color: white;
 }
-.Animaux:hover
-{
-    background-color: yellow;
+.choix{ 
+    border-color:#F2F2F2;
+    border-radius: 0px 20px 20px 0px;
+    height:60px; 
+    background-color: white;
+    position: relative;
 }
-.Romantique:hover
+.preference:hover
 {
-    background-color: greenyellow;
+    background-color: rgb(51,75,153);
 }
-.Economique:hover
+.preference2:hover
 {
-    background-color: red;
+    background-color: rgb(51,75,153);
 }
-.iconéco,.fam, .coeur, .iconedog
-{
-    color:rgb(75,83,203);
-    font-size: medium;
+.icone{
+    position: absolute;
+    color: #065FFC ;
+    font-size: 20px;
     text-align: center;
-    padding-left: 5px;
-    padding-top:14px;
-    border-radius: 20px 0px 0px 20px ;
-    background-color: #a3d6ed ;
-    width:30px;
-    margin-left: 5px;
+    border-radius: 50% ;
+    background-color: #DEEBFF ;
+    width:45px;
+    height: 35px;
+    padding-top :8px;    
 }
 .info
 {
     background-color: white;
-    color: blue;
+    color: #065FFC ;
 }
- 
-.port, .cannebiere,.mouettes,.mer,.auberge,.amina
+.foto
 {
 width:230px;
 height: 110px;
@@ -153,7 +165,7 @@ border-top-left-radius : 15px;
 border-top-right-radius: 15px;
 border-image:10px;
 }
-.photo1,.photo2,.photo3,.photo4,.photo5,.photo6
+.photo
 { 
     border:3px solid;
     border-color:white ;

@@ -10,37 +10,36 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">  
         <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
     </head>
- 
-    <header> 
-<div id="conteneur">       
-    <div class="titre_principal">
-        <img src="booki.png" class="logo" alt="Logo du site">
-    </div>
-    <nav>
-            <ul class="nav-list">
-                <li ><a href="#Hebergements">Hébergements</a></li>
-                <li><a href="#Activités">Activités</a></li>
-            </ul>        
-    </nav>      
-</div>  
-   <body>
-        <h2>Trouvez votre hébergement pour des vacances de rêves</h2> 
+<body>
+  <header> 
+        <div id="conteneur">       
+            <div class="titre_principal">
+            <img src="booki.png" class="logo" alt="Logo du site">
+        </div>
+        <nav>
+        <ul class="nav-list">
+            <li ><a href="#Hebergements">Hébergements</a></li>
+            <li><a href="#Activites">Activités</a></li>
+        </ul>        
+        </nav>      
+        </div>  
+     <h2>Trouvez votre hébergement pour des vacances de rêves</h2> 
         <p>En plein centre ville ou en pleine nature</p>
-<div id="formulaire">
-    <div class="iconegeo"> 
+    <div id="formulaire">
+        <div class="iconegeo"> 
         <i class="fa fa-map-marker" aria-hidden="true"></i> 
-    </div>
-    <div class="geo">
+        </div>
+        <div class="geo">
         <form method="post">
                <input type="search" class="geol" name="ville,pays">
         </form>
     </div>
-    <div class="bouton">    
+        <div class="bouton">    
         <input type="submit" class="rechercher" value="Rechercher" autofocus/>      
-    </div>
-</div> 
-    
-    <filtres> 
+        </div>
+    </div> 
+  </header>
+    <section> 
     <div id="conteneurfiltres"> 
             <div class="select">Filtres</div> <!-- mettre en gras -->
         <div id="conteneureco">  
@@ -72,29 +71,28 @@
     </div>
     <p> <span class="info"><i class="fas fa-info-circle"></i>
         </span> Plus de 500 logements dans cette ville</p>  
-    </filtres>   
-</header>
-  <section id="section1">
-    <main>
+    </section>   
+    <main id="section2">
+    <section class="section3">
     <h2>Hébergements à Marseille</h2>
 
 <div id="Hebergements" class="dodo"> 
     <div class="photo">
         <img src="cannebiere.jpg" class="foto" alt="cannebiere"/></br>  
-       <span class="titre" > Auberge La Cannebière </span>
-       <p>Nuit à partir de 25€</br>
-            <span class="bleu"> 
+    <p><span class="titre"> Auberge La Cannebière</span></p>
+            <p>  Nuit à partir de 25€  </p>
+         <span class="bleu"> 
                 <i class="fa-solid fa-star"></i> 
                 <i class="fa-solid fa-star"></i> 
                 <i class="fa-solid fa-star"></i> 
                 <i class="fa-solid fa-star"></i>
             </span>
             <span class="gris"> <i class="fa-solid fa-star "></i>
-            </span></p>
-    </div>   
+            </span> 
+     </div>   
     <div class="photo">
         <img src="hotelport.jpg" class="foto" alt="port"/> </br> 
-       <span class="titre"> Hotel du port</span>
+       <span class="titre"> Hôtel du port</span>
        <p>Nuit à partir de 52€ </br>
             <span class="bleu"> 
                 <i class="fa-solid fa-star"></i> 
@@ -161,7 +159,7 @@
     </div>
 </div>
     <h2>Afficher plus</h2>
-</main>
+</section>
  <aside>
     <div id="popu">
         <h2>Les plus populaires</h2>
@@ -169,12 +167,11 @@
             <i class="fa fa-line-chart" aria-hidden="true"></i>
         </span> 
     </div>
-   
     <div id="meilleureschambres">
         <img src="matinS.jpg" class="mieux" alt="matin"/> 
         <article class="letop"> 
-            <h1>Hôtel Le soleil du matin</h1> 
-            <p>Nuit à partir de 128 € </br> 
+            <strong>Hôtel Le soleil du matin</strong> 
+            <p>Nuit à partir de 128 €
             <span class="bleu"> 
                 <i class="fa-solid fa-star"></i> 
                 <i class="fa-solid fa-star"></i> 
@@ -217,33 +214,42 @@
             </p>
         </article>   
     </div>        
- </aside>
-</section>
-                         <h2>Activités à Marseille</h2>
-
-<div id="Activités">
-    <figure> 
-        <img src="vieuxport.jpg" class="vieux" alt="vieux">
-        <figcaption class="caption"><p>Vieux Port</p></figcaption>
-    </figure>
-    <figure id="group1">
-        <img src="pomègues.jpg" class="pomègues" alt="fort">
-        <figcaption class="pomeg"> <p>Fort de Pomègues</p></figcaption>   
-        <img src="frioul.jpg" class="frioul" alt="iles">
-        <figcaption class="caption"><p>Iles du Frioul</p></figcaption>
-    </figure>
-    <figure >
-        <img src="calanques.jpg" class="calan" alt="calanques">
-        <figcaption class="caption"> Parc National des calanques</figcaption>
-    </figure>
-    <figure id="group2">  
-        <img src="lagarde.jpg" class="lagarde" alt="la garde">
-        <figcaption class="garde2">Notre-Dame-de-la-Garde</figcaption>
-        <img src="longchamp.jpg" class="long" alt="parc">
-        <figcaption class="caption"> Parc Longchamp</figcaption>       
-    </figure>
-</div>
-</body>         
+        </aside>
+    </main>
+ <section>
+       <h2>Activités à Marseille</h2>
+<div id="Activites">      
+        <article class="bellevue"> 
+                <img src="vieuxport.jpg" class="gdefoto" alt="Vieux Port"></br>
+                <span class="legende">Vieux Port</span>
+        </article>
+        <div id="group1">
+                <article class="moyennevue"> 
+                    <img src="pomègues.jpg" class="moyfoto" alt="fort de Pomègues"> </br>
+                    <span class="legende">Fort de Pomègues</span>       
+                </article>
+                <article class="petitevue"> 
+                    <img src="frioul.jpg" class="ptefoto" alt="iles de Frioul">
+                    <span class="legende"> Iles du Frioul</span>
+                </article>
+        </div>    
+      
+        <article class="bellevue">
+            <img src="calanques.jpg" class="gdefoto" alt="calanques"></br>
+            <span class="titre"> Parc National des calanques</span>
+         </article>
+    <div id="group2">
+        <article class="petitevue">  
+            <img src="lagarde.jpg" class="ptefoto" alt="la garde">
+            <span class="legende">Notre-Dame-de-la-Garde</span>
+        </article>
+        <article class="moyennevue"> 
+             <img src="longchamp.jpg" class="moyfoto" alt="parc">
+            <span class="legende"> Parc Longchamp</span>       
+        </article>
+    </div>
+</div>    
+</section>     
 <footer id="basdepage">
     <nav class="pied1">
         <ul> 
@@ -284,6 +290,6 @@
         <h1>Assistance</h1> 
         <p>Centre d'aide</br>
          Nous contacter</p> -->
-</footer>
-
+    </footer>
+</body>
     </html>

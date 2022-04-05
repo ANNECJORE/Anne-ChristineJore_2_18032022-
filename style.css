@@ -23,6 +23,12 @@ h3
     font-weight: boldER;
     margin-left: 45px; 
 }
+h4
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top :0%;
+}
 p
 {
      font-size: 14px;   
@@ -92,8 +98,8 @@ text-decoration: none;
     font-weight: bold; 
     display:flex;
     height: 60px;
-    align-items: flex-start;
-    margin-left:45px;
+    justify-content: flex-start;
+    margin-left: 45px;
     } 
 .select 
 {
@@ -107,6 +113,7 @@ text-decoration: none;
 {
     display:flex;
     height: 35px;
+
 }
 .preference
 {
@@ -196,6 +203,7 @@ object-fit: cover;
 #section2 {
     display: flex;
     margin-left: 45px;
+    margin-top: 20px;
 } 
 #Hebergements
 {
@@ -218,37 +226,43 @@ object-fit: cover;
 .bleu
 {   color: blue;
     font-size: x-small;
+    margin:0%
 }
 .gris
 {
     color: grey;
     font-size: x-small;
+    margin: 0%;
 }
 .mieux
 {
-    width: 46%;
-    height: 120px;
+    width: 50%;
+    height: 111px;
     padding-right: 4px;
+    border: 3px white solid;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow: hidden;
     object-fit: cover;
 }
-.letop
+article
  {
-     width:46%;
-     margin-left: 5px;
+    flex-direction: column;  
+    width:46%;
+     justify-content: flex-start;
  }
 .meilleureschambres
 {
     display: flex ;
+    justify-content: space-between;
     border: 3px white solid;
     background-color: white;
-    margin-left: 15px;
+    border-bottom: 3px white solid;
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 30px;
     width: 88%;
     height: 115px;
+    margin-left: 5px;
 }
 aside
 {
@@ -258,7 +272,8 @@ aside
    height: 500px ;
    padding-left: 5px;
 }
-#popu{
+#popu
+{
     display: flex;
     justify-content: space-between;
 }
@@ -302,14 +317,14 @@ aside
 .moyennevue
 { 
     height:200px;
-    width:250px;
+    width:100%;
     box-shadow: 3px 3px 3px #e9e4e4 ;
     border-radius: 10px 10px 10px 10px ;
 }
 .moyennevuebis
 { 
     height:200px;
-    width:250px;
+    width:100%;
     box-shadow: 3px 3px 3px #e9e4e4 ;
     border-radius: 10px 10px 10px 10px ;
     margin-top: 20px;
@@ -321,14 +336,14 @@ aside
     border-top-right-radius: 15px;
     overflow: hidden;
    object-fit: cover;
-    width: 250px; 
+    width:100%; 
 }
 .petitevue
 {
     border-radius: 20px 20px 20px 20px;
     height: 160px;
     box-shadow: 3px 3px 3px #e9e4e4 ;
-    width:250px;
+    width:100%;
 }
 .petitevuebis
 {
@@ -336,7 +351,7 @@ aside
     height: 160px;
     box-shadow: 3px 3px 3px #e9e4e4 ;
     margin-top: 20px;
-    width:250px;
+    width:100%;
 }
 .ptefoto
 {
@@ -355,7 +370,14 @@ aside
     margin-left: 20px;
     margin-top: 20px; 
 } 
- 
+.letop
+{
+   flex-direction: column;
+font-size: 16px;
+font-weight: bold;
+margin-left: 20px;
+margin-top: 20px; 
+} 
 #Activites
 {
     display: flex;
@@ -373,7 +395,7 @@ aside
     left:0px;
     right: 0px; 
 }
-.pied1 li, .pied2 li, .pied3 li 
+.pied li 
 {
     list-style-type: none;  
 }

@@ -79,18 +79,22 @@ justify-content: space-between;
 .nav-list a {
 text-decoration: none;
 }
+.traitbleu
+{
+    border-top: 2px solid #065FFC;
+}
 #formulaire
 {
     display: flex ;
-    height: 90px;
+    height: 70px;
 }
 .iconegeo {
     height: 45px;
-    width:40px;
-    font-size: 30px;
+    width:36px;
+    font-size: 25px;
     text-align: justify;
     background-color:#F2F2F2 ;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
     padding-left: 15px;
     padding-top: 10px;
 }
@@ -100,76 +104,81 @@ text-decoration: none;
     font-size: 16px; 
     height: 55px;
     width: 120%; 
-    border-radius: 0px 10px 10px 0px ;
+    border-radius: 0px 15px 15px 0px ;
     border: 6px #065FFC solid; 
     background-color: #065FFC;
 }
 .geol{
-    border:6px;
-    border-top:#F2F2F2;
-    border-bottom:#F2F2F2;
+    border-:6px solid;
+    border-top: 3px solid #F2F2F2;
+    border-bottom:3px solid #F2F2F2;
     border-left:#F2F2F2;
     height:55px;
     width: 200px;
     font-weight: bold;
     font-size: 16px;
 }
-#conteneurfiltres
+.conteneurfiltres
 {
     display:flex;
-    height: 50px;
-    width: 70%;
+    align-items: center;
+} 
+ .marginfiltre
+ { 
+    margin-top: 50px;
+    margin-bottom: 40px ;
     justify-content: flex-start;
     margin-left: 30px;
+
     } 
-.select 
+.select
 {
     font-weight: bold;
     font-size: 16px;
     margin-top: 15px;
-    margin-right: 15px;
-}
-#conteneureco
-{
-    display:inline-block;
-    height: 35px;
+    margin-right: 20px;
 }
 .conteneureco
 {
     display:inline-block;
-    height: 35px;
+    border: 3px ;
 }
 .preference
 {
-    height:35px;
+    height: 30px; 
     width: 120px;
-    border-radius: 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 33px;
     text-align: center;
-    padding-left: 33px ;
     font-weight: bold;
     font-size: 16px;
     margin-left: 5px;
-    border-color:#F2F2F2;
+    border:  2px solid #F2F2F2 ; 
     background-color: white;
-    border-left: none
+    border-left: none;
+    padding-top: 9px;
+    
      }
 .preference2
 {
-    height:35px;
+    height:30px;
     width: 150px;
-    border-radius: 20px 20px 20px 0px;
+    text-align: center;
+    border-radius: 20px 20px 20px 20px;
     padding-left: 30px ;
     font-weight: bold;
     font-size: 16px;
     margin-left: 17px;
-    border-color:#F2F2F2;
+    border: 2px solid #F2F2F2;
     background-color: white;
+    padding-top: 9px;
 }
 .choix{ 
-    border-color:#F2F2F2;
+    border: 2px ;
+    border-color:grey;
     border-radius: 0px 20px 20px 0px;
     margin-right: 20px;
-    height:50px; 
+    height:40px; 
     background-color: white;
     position: relative;
 }
@@ -199,6 +208,16 @@ text-decoration: none;
     color: #065FFC ;
     margin-left: 45px;
 }
+h5
+{
+    font-size: 16px;
+    font-weight: bold;
+   margin-top: -8px;
+}
+.aulit
+{
+    width:75%
+}
 .foto
 {
 height: 110px;
@@ -206,18 +225,20 @@ width:100%;
 border-radius:15px 15px 0px 0px;
 overflow: hidden;
 object-fit: cover;
+margin-bottom: 10px;
 }
 .photo
 { 
     border: 5px solid;
     border-color:white ;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     width: 30%;
     height:180px;
     margin-top: 5px;
     background-color: white;
     margin-right: 5px;
     margin-left: 5px;
+    box-shadow: 3px 3px 3px #e9e4e4 ;
 } 
 .titre
 {
@@ -231,13 +252,15 @@ object-fit: cover;
     display: flex;
     margin-left: 45px;
     margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 } 
 #Hebergements
 {
     display: flex;
     flex-wrap: wrap;
     width:98%;
-    height:400px;
+    height:450px;
     background-color:#F2F2F2;
     border-radius: 10px 10px 10px 10px;
     margin-left: 10px;   
@@ -249,6 +272,24 @@ object-fit: cover;
     width:65%;
     margin-right: 50px;
     padding-left:15px;
+}
+.aulit
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    justify-content: flex-start;
+  
+}
+.dodo
+{
+    margin-top: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+h5
+{
+    font-size: 16px;
 }
 .bleu
 {   color: blue;
@@ -272,7 +313,7 @@ object-fit: cover;
     overflow: hidden;
     object-fit: cover;
 }
-article
+.best
  {
     flex-direction: column;  
     width:46%;
@@ -296,13 +337,14 @@ aside
     background-color:#F2F2F2 ;
     border-radius: 10px 10px 10px 10px;
     width: 28%;
-   height: 500px ;
+   height: 550px ;
    padding-left: 5px;
 }
 #popu
 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px ;
 }
 .graph
 {

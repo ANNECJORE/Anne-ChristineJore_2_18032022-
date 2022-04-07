@@ -14,11 +14,11 @@
   <header> 
         <div id="conteneur">       
             <div class="titre_principal">
-            <img src="booki.png" class="logo" alt="Logo du site">
+            <img src="Booki.png" class="logo" alt="Logo du site">
              </div>
         <nav>
         <ul class="nav-list">
-            <li ><a href="#section2">Hébergements</a></li>
+            <li ><a href="#section2" class="traitbleu">Hébergements</a></li>
             <li><a href="#idees">Activités</a></li>
         </ul>        
         </nav>      
@@ -28,7 +28,7 @@
         <p>En plein centre ville ou en pleine nature</p>
     <div id="formulaire">
         <div class="iconegeo"> 
-        <i class="fa fa-map-marker" aria-hidden="true"></i> 
+        <i class="fa fa-map-marker-alt" aria-hidden="true"></i> 
         </div>
         <div class="geo">
         <form method="post">
@@ -39,30 +39,30 @@
         <input type="submit" class="rechercher" value="Rechercher" autofocus/>      
         </div>
     </div> 
-    <div id="conteneurfiltres"> 
+    <div class="conteneurfiltres marginfiltre"> 
         <div class="select">Filtres</div> <!-- mettre en gras -->
-        <div id="conteneureco" class="conteneureco">  
+        <div class="conteneureco">  
             <div class="choix">
              <i class="fa-solid fa-money-bill-wave icone"></i> 
-            <div> <input class="preference" value="Economique"/></div> 
+            <div class="preference"> Economique </div> 
             </div>
         </div>    
         <div class="conteneureco">    
             <div class="choix">    
             <i class="fas fa-child icone"></i> 
-            <div> <input class="preference" value="Familial"/></div>
+            <div class="preference">  Familial  </div>
             </div>
         </div>
         <div class="conteneureco">
            <div class="choix"> 
            <i class="fa fa-heart icone" aria-hidden="true"></i> 
-            <input class="preference" value="Romantique"/>
+            <div class="preference">Romantique</div>
             </div>
         </div>
         <div class="conteneureco">
             <div class="choix"> 
-           <i class="fa-solid fa-dog icone"></i> 
-            <input class="preference2" value="Animaux autorisés"/> 
+            <i class="fa-solid fa-dog icone"></i> 
+            <div class="preference2"> Animaux autorisés</div>
             </div>
         </div>
     </div>
@@ -74,31 +74,31 @@
     <section class="section3">
     <h2>Hébergements à Marseille</h2>
 
-<div id="Hebergements" class="dodo"> 
+<div id="Hebergements" > 
     <div class="photo">
         <img src="cannebiere.jpg" class="foto" alt="cannebiere"/>  
-         <span class="titre"> Auberge La Cannebière</span> 
-           <p>     Nuit à partir de 25€  <br>
-         <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i>
+         <article class="aulit"><h5>La Cannebière</h5>
+           <p class="dodo" > Nuit à partir de 25€  
+            <span> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i>
+                <i class="fa-solid fa-star gris"></i>
             </span>
-            <span class="gris"> <i class="fa-solid fa-star "></i>
-            </span>
-          </p>  
+           </p>
+        </article>
      </div>   
     <div class="photo">
         <img src="hotelport.jpg" class="foto" alt="port"/>
        <span class="titre"> Hôtel du port</span>
        <p>Nuit à partir de 52€ <br>
-            <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+            <span  > 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i>
+                <i class="fa-solid fa-star bleu"></i>
             </span>
         </p>
     </div>
@@ -106,13 +106,12 @@
         <img src="mouettes.jpg" class="foto" alt="mouettes"/> 
        <span class="titre"> Hôtel les mouettes</span>
         <p>Nuit à partir de 76€ <br>
-            <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i>
-            </span>
-                <span class="gris"> <i class="fa-solid fa-star "></i>
+            <span > 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i>
+                 <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
     </div>
@@ -120,13 +119,12 @@
         <img src="hotelmerL.jpg" class="foto" alt="mer"/> 
        <span class="titre">Hôtel de la mer</span>
         <p>Nuit à partir de 46€ <br>
-            <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-            </span>
-                <span class="gris"> <i class="fa-solid fa-star "></i>
-                 <i class="fa-solid fa-star"></i>
+            <span  > 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star gris"></i>
+                <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
     </div>
@@ -135,12 +133,11 @@
        <span class="titre">Auberge Le Panier</span> 
         <p>Nuit à partir de 23€   <br>
             <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i>
-            </span>
-                <span class="gris"> <i class="fa-solid fa-star "></i>
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i>
+                <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
     </div>
@@ -148,12 +145,12 @@
         <img src="hotelchez.jpg" class="foto" alt="amina"/><br>
        <span class="titre">Hôtel chez Amina</span> 
         <p>Nuit à partir de 96€ <br>
-            <span class="bleu"> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i> 
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star "></i>
+            <span  > 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i> 
+                <i class="fa-solid fa-star bleu"></i>
+                <i class="fa-solid fa-star bleu"></i>
             </span>
         </p>
     </div>
@@ -168,9 +165,9 @@
         </span> 
     </div>
  
-    <div id="meilleureschambres" class="meilleureschambres">
+    <div  class="meilleureschambres">
         <img src="matinS.jpg" class="mieux" alt="matin"/> 
-        <article> <h4> Hôtel Le soleil du matin </h4>  
+        <article class="best"> <h4> Hôtel Le soleil du matin </h4>  
            <p>  Nuit à partir de 128 €<br>
             <span class="bleu"> 
                 <i class="fa-solid fa-star"></i> 
@@ -184,7 +181,7 @@
     </div>
     <div class="meilleureschambres">
         <img src="hotes.jpg" class="mieux" alt="hotes"/> 
-        <article> 
+        <article class="best"> 
             <h4> Au coeur de l'eau <br>
             Chambres d'hôtes </h4> 
             <p>Nuit à partir de 71 € <br>
@@ -199,7 +196,7 @@
     </div> 
     <div class="meilleureschambres">
         <img src="bleublanc.jpg" class="mieux" alt="bleublanc"/> 
-        <article >
+        <article class="best" >
           <h4> Hôtel tout bleu et blanc </h4> 
             <p>Nuit à partir de 68 € <br>
                 <span class="bleu"> 

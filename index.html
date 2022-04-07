@@ -5,7 +5,7 @@
         <title>Projet 2 vacances de rêve</title>
         <link rel="stylesheet" href="style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" media="screen and (max-width: 992px)" href="petite_resolution.css" /><!--pour les responsives-->
+        <link rel="stylesheet" media="screen and (max-width: 768px)" href="petite_resolution.css" /><!--pour les responsives-->
         <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> pour les icones -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">  
         <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
@@ -22,7 +22,8 @@
             <li><a href="#idees">Activités</a></li>
         </ul>        
         </nav>      
-        </div>  
+        </div> 
+<section> 
      <h2>Trouvez votre hébergement pour des vacances de rêves</h2> 
         <p>En plein centre ville ou en pleine nature</p>
     <div id="formulaire">
@@ -38,14 +39,12 @@
         <input type="submit" class="rechercher" value="Rechercher" autofocus/>      
         </div>
     </div> 
- 
- <section> 
     <div id="conteneurfiltres"> 
         <div class="select">Filtres</div> <!-- mettre en gras -->
         <div id="conteneureco" class="conteneureco">  
             <div class="choix">
              <i class="fa-solid fa-money-bill-wave icone"></i> 
-            <div> <input submit="text" class="preference" value="Economique"/></div> 
+            <div> <input class="preference" value="Economique"/></div> 
             </div>
         </div>    
         <div class="conteneureco">    
@@ -208,43 +207,43 @@
                     <i class="fa-solid fa-star"></i> 
                     <i class="fa-solid fa-star"></i> 
                     <i class="fa-solid fa-star"></i>
+                </span>   
                 <span class="gris"> <i class="fa-solid fa-star "></i>
-               </span>
-        </article>   
-    </div> 
-    </article>       
-        </aside>
+               </span> 
+        </article> 
+     </div>      
+</aside>
     </main>
  <section class="Marseille">
 <div id="idees"><h3>Activités à Marseille</h3></div>     
 <div id="Activites" class="idées">
-        <article class="bellevue"> 
-                <img src="vieuxport.jpg" class="gdefoto" alt="Vieux Port"></br>
+        <div class="bellevue"> 
+                <img src="vieuxport.jpg" class="gdefoto" alt="Vieux Port"><br>
                 <span class="legende">Vieux Port</span>
-        </article>
+        </div>
     <div id="group1">
-            <article class="moyennevue"> 
-                <img src="pomègues.jpg" class="moyfoto" alt="fort de Pomègues"> </br>
+            <div class="moyennevue"> 
+                <img src="pomègues.jpg" class="moyfoto" alt="fort de Pomègues"> <br>
                 <span class="legende">Fort de Pomègues</span>       
-            </article>
-            <article class="petitevuebis"> 
+            </div>
+            <div class="petitevuebis"> 
                 <img src="frioul.jpg" class="ptefoto" alt="iles de Frioul">
                 <span class="legende"> Iles du Frioul</span>
-            </article>
+            </div>
     </div>     
-        <article class="bellevue">
-             <img src="calanques.jpg" class="gdefoto" alt="calanques"></br>
+        <div class="bellevue">
+             <img src="calanques.jpg" class="gdefoto" alt="calanques">
              <span class="legende"> Parc National des calanques</span>
-        </article>
+        </div>
     <div id="group2">
-        <article class="petitevue">  
+        <div class="petitevue">  
             <img src="lagarde.jpg" class="ptefoto" alt="la garde">
             <span class="legende">Notre-Dame-de-la-Garde</span>
-        </article>
-        <article class="moyennevuebis"> 
+        </div>
+        <div class="moyennevuebis"> 
              <img src="longchamp.jpg" class="moyfoto" alt="parc">
             <span class="legende">Parc Longchamp</span>       
-        </article>
+        </div>
     </div>
 </div>    
 </section>     

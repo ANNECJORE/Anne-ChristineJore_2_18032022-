@@ -86,13 +86,13 @@ p
 {
    display: none;
 }
-.loupe
+.boutonloupe
 {
     width: 15%;
     background-color: #065FFC;
     color: white;
-
 }
+
 .geol{
     border-bottom:6px solid;
     background-color: white;
@@ -109,36 +109,28 @@ p
     display: flex; 
     flex-direction: column;
      align-items: flex-start;
+     margin-left: 0px;
 } 
 .marginfiltre
 { 
    display: flex;
    flex-direction: column;
-    margin-top: 50px;
-   margin-bottom: 40px ;
+    margin-top: 20px;
+   margin-bottom: 10px ;
    justify-content: flex-start;
-   margin-left: none;
+  align-items: flex-start;
+   margin-left: 0px;
    }  
 .ensemble
 {
     display: flex;
     justify-content: flex-start;
-
-
+    align-items: flex-start;
+    margin-top: 20px;
 }
 .preference
 {
-    height:35px;
-    width: 120px;
-    border-radius: 20px 20px 20px;
-    text-align: center;
-    padding-left: 33px ;
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 5px;
-    border-color:#F2F2F2;
-    background-color: white;
-    border-left: none
+   margin-bottom: 30px;
      }
 .preference2
 {

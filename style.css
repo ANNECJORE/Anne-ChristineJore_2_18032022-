@@ -74,7 +74,7 @@ padding-left: 20px;
 }
 .iconegeo {
     height: 45px;
-    width:3%;
+    width: 38px; 
     font-size: 25px;
     text-align: justify;
     background-color:#F2F2F2 ;
@@ -91,11 +91,18 @@ padding-left: 20px;
     color:white;
     font-size: 16px; 
     height: 55px;
-    width: 120%; 
+    margin-left: 20px;
+    width: 100%; 
     border-radius: 0px 15px 15px 0px ;
     border: 6px #065FFC solid; 
     background-color: #065FFC;
 }
+.geo
+{
+    width: 200px;
+    background-color: white;
+}
+
 .geol{
     border-bottom:6px solid;
     border-top: 3px solid #F2F2F2;
@@ -105,6 +112,8 @@ padding-left: 20px;
     width: 150%;
     font-weight: bold;
     font-size: 16px;
+    background-color: white;
+    padding-right: 25px;
 }
 .conteneurfiltres
 {

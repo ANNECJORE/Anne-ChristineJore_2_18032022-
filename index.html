@@ -6,25 +6,21 @@
         <link rel="stylesheet" href="style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" media="screen and (max-width: 768px)" href="petite_resolution.css" /><!--pour les responsives-->
-        <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> pour les icones -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">  
         <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css>
     </head>
 <body>
   <header> 
-        <div id="conteneur">       
-            <div class="titre_principal">
-            <img src="Booki.png" class="logo" alt="Logo du site">
-             </div>
-        <nav>
-        <ul class="nav-list">
-            <li ><a href="#section2" class="traitbleu">Hébergements</a></li>
-            <li><a href="#idees">Activités</a></li>
-        </ul>        
-        </nav>      
-        </div> 
+        <nav id="conteneur">               
+             <img src="Booki.png" class="logo titre_principal" alt="Logo du site">
+        <span class="nav-list" >
+           <a href="#hebergements" class="traitbleu">Hébergements</a>
+           <a href="#idees" class="traitgris" >Activités</a>
+        </span >      
+    </nav>     
+  </header>
 <section> 
-     <h2>Trouvez votre hébergement pour des vacances de rêves</h2> 
+     <h2 class="accueil">Trouvez votre hébergement pour des vacances de rêves</h2> 
         <p>En plein centre ville ou en pleine nature</p>
     <div id="formulaire">
         <div class="iconegeo"> 
@@ -36,21 +32,26 @@
         </form>
          </div>
         <div class="bouton">    
-        <input type="submit" class="rechercher" value="Rechercher" autofocus/>      
+        <input type="submit" class="rechercher" value="Rechercher" autofocus/> </div>   
+         <div class="boutonloupe"> 
+        <button  name="loupe"  class="loupe"  > moi <!--<mon ></bouont><i class="fa fa-search iconeloupe"></i>--></button> 
         </div>
+
     </div> 
     <div class="conteneurfiltres marginfiltre"> 
         <div class="select">Filtres</div> <!-- mettre en gras -->
-        <div class="conteneureco">  
-            <div class="choix">
-             <i class="fa-solid fa-money-bill-wave icone"></i> 
-            <div class="preference"> Economique </div> 
-            </div>
-        </div>    
-        <div class="conteneureco">    
+        <div class="ensemble"> 
+            <div class="conteneureco" >  
+                <div class="choix">
+                 <i class="fa-solid fa-money-bill-wave icone"></i> 
+                <div class="preference"> Economique </div> 
+              </div>
+             </div>    
+            <div class="conteneureco" class="ensemble">    
             <div class="choix">    
             <i class="fas fa-child icone"></i> 
             <div class="preference">  Familial  </div>
+            </div>
             </div>
         </div>
         <div class="conteneureco">
@@ -66,10 +67,9 @@
             </div>
         </div>
     </div>
- </section>
-    <p> <span class="info"><i class="fas fa-info-circle"></i>
+    <p> <span class="info"><i class="fas fa-info-circle bleu"></i>
         </span> Plus de 500 logements dans cette ville</p>  
-  </header>
+  </section> 
         <main id="section2">
     <section class="section3">
     <h2>Hébergements à Marseille</h2>
@@ -77,7 +77,7 @@
 <div id="Hebergements" > 
     <div class="photo">
         <img src="cannebiere.jpg" class="foto" alt="cannebiere"/>  
-         <article class="aulit"><h5>La Cannebière</h5>
+         <article class="aulit"><h5>La Cannebière</h5> 
            <p class="dodo" > Nuit à partir de 25€  
             <span> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -86,13 +86,13 @@
                 <i class="fa-solid fa-star bleu"></i>
                 <i class="fa-solid fa-star gris"></i>
             </span>
-           </p>
-        </article>
-     </div>   
+        </p>
+      </article>  
+    </div>   
     <div class="photo">
         <img src="hotelport.jpg" class="foto" alt="port"/>
-       <span class="titre"> Hôtel du port</span>
-       <p>Nuit à partir de 52€ <br>
+       <article class="aulit"><h5>Hôtel du port</h5> 
+       <p class="dodo">Nuit à partir de 52€ 
             <span  > 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -101,11 +101,12 @@
                 <i class="fa-solid fa-star bleu"></i>
             </span>
         </p>
+        </article>
     </div>
     <div class="photo">
         <img src="mouettes.jpg" class="foto" alt="mouettes"/> 
-       <span class="titre"> Hôtel les mouettes</span>
-        <p>Nuit à partir de 76€ <br>
+       <article class="aulit"><h5> Hôtel les mouettes</h5> 
+        <p class="dodo">Nuit à partir de 76€  
             <span > 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -114,11 +115,12 @@
                  <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
+       </article> 
     </div>
     <div class="photo">
         <img src="hotelmerL.jpg" class="foto" alt="mer"/> 
-       <span class="titre">Hôtel de la mer</span>
-        <p>Nuit à partir de 46€ <br>
+       <article class="aulit"><h5>Hôtel de la mer</h5> 
+        <p class="dodo">Nuit à partir de 46€  
             <span  > 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -127,12 +129,13 @@
                 <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
+       </article> 
     </div>
     <div class="photo">
-        <img src="auberge.jpg" class="foto" alt="auberge le panier"/><br> 
-       <span class="titre">Auberge Le Panier</span> 
-        <p>Nuit à partir de 23€   <br>
-            <span class="bleu"> 
+        <img src="auberge.jpg" class="foto" alt="auberge le panier"/> 
+       <article class="aulit"><h5> Le Panier</h5> 
+        <p class="dodo">Nuit à partir de 23€ 
+            <span  > 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -140,12 +143,13 @@
                 <i class="fa-solid fa-star gris"></i>
             </span>
         </p>
+       </article> 
     </div>
     <div class="photo">
-        <img src="hotelchez.jpg" class="foto" alt="amina"/><br>
-       <span class="titre">Hôtel chez Amina</span> 
-        <p>Nuit à partir de 96€ <br>
-            <span  > 
+        <img src="hotelchez.jpg" class="foto" alt="amina"/> 
+       <article class="aulit"><h5>Hôtel chez Amina</h5> 
+        <p class="dodo">Nuit à partir de 96€  
+            <span>
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
                 <i class="fa-solid fa-star bleu"></i> 
@@ -153,6 +157,7 @@
                 <i class="fa-solid fa-star bleu"></i>
             </span>
         </p>
+       </article> 
     </div>
 </div>
     <h2>Afficher plus</h2>
@@ -213,14 +218,14 @@
     </main>
  <section class="Marseille">
 <div id="idees"><h3>Activités à Marseille</h3></div>     
-<div id="Activites" class="idées">
+<div id="Activites" class="idees">
         <div class="bellevue"> 
-                <img src="vieuxport.jpg" class="gdefoto" alt="Vieux Port"><br>
+                <img src="vieuxport.jpg" class="gdefoto" alt="Vieux Port"> 
                 <span class="legende">Vieux Port</span>
         </div>
     <div id="group1">
             <div class="moyennevue"> 
-                <img src="pomègues.jpg" class="moyfoto" alt="fort de Pomègues"> <br>
+                <img src="pomègues.jpg" class="moyfoto" alt="fort de Pomègues">  
                 <span class="legende">Fort de Pomègues</span>       
             </div>
             <div class="petitevuebis"> 

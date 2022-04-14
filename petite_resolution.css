@@ -232,39 +232,46 @@ object-fit: cover;
     flex-direction: column;
     border: 5px solid;
     border-color:white ;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px 15px 15px 15px;
     width: 300px;
     height:200px;
     margin-top: 5px;
     background-color: white;
     margin-right: 5px;
     margin-left: 5px;
+    box-shadow: #F2F2F2;
 } 
-.titre
+/*.titre
 {
     margin-top :-15px; 
     width: 25%;
     border-radius: 0px 0px 15px 15px;
     font-size: 16px;
     font-weight: bold;
-}
+}*/
 
 #section2 
 {
+    display: flex;
     flex-direction: column-reverse;
     margin: 0%;
-    align-items: flex-start;
+    justify-content: flex-start;
     background-color: white;
-} 
 
+} 
+.afficher
+{
+    margin-top:  25px;
+}
 #Hebergements
 {
-   width: 200px;
+   width: auto;
     display: flex;  
     flex-direction: column;
    background-color: white;
-flex-wrap: nowrap;
-height:300px;
+ flex-wrap: nowrap; 
+ margin-bottom: 15px;
+ height:1250px;
  /* flex-direction: column;
   justify-content: flex-start;
   flex-wrap: none;
@@ -274,10 +281,11 @@ height:300px;
 .section3
 {
     display: flex;
+ flex-direction: column;
     background-color:white;
-     width: max-content;
-    flex-direction: column;
+    width: 100%; 
 }
+/*populaires*/
 .mieux
 {
     width:42%;
@@ -290,8 +298,7 @@ height:300px;
     width:48%;
     align-items: center;
      justify-content:center;
-    margin-left: 35px;
-     
+    margin-left: 35px; 
     padding-right: 30px;
  }
 .meilleureschambres
@@ -308,10 +315,11 @@ height:300px;
     margin-left: 0px;
     display: flex ;
     flex-direction: column-reverse;
-
+    margin-bottom: 20px;
 }
 aside
 {
+  
     background-color:#F2F2F2 ;
     border-radius: 0px ; 
     width: 88%;
@@ -319,16 +327,18 @@ aside
    margin-bottom: 15px;
     margin-left: 0%;
     padding-right: 0%;
-    padding-right: 0px;
+   
 }
  
 #group1,#group2
 {
     display:flex;
     flex-direction: column;
-    height: 430px;
+    height: 420px;
     width: 300px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+    justify-content: space-around;
+    margin-top: 5px ;
 }
 .bellevue
 {
@@ -337,10 +347,11 @@ aside
     height: 200px;
     width:300px;
     margin-bottom: 23px;
+    margin-top: 10px;
 }
 .gdefoto
 { 
-    margin-top: 3px;
+    margin-top: 15px;
     height:150px;
     width :300px
 }
@@ -350,7 +361,7 @@ aside
     width: 300px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5px;
+ /*   margin-bottom: 5px;*/
 }
 .moyennevuebis
 { 
@@ -358,7 +369,7 @@ aside
     width: 300px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+  /*  margin-bottom: 10px;*/
 }
 .moyfoto
 {
@@ -370,14 +381,14 @@ aside
       height: 300px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
 }
 .petitevuebis
 {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;  
-    height: 300px;
+     margin-bottom: 0px; 
+    height: 250px;
     width: 200;
 }
 .ptefoto
@@ -385,12 +396,20 @@ aside
     height: 150px;
     width: 100%;
 } 
+.frioul{
+    margin-top: 0%;
+    padding-bottom: -15px;
+   /* margin-bottom: 15px ;*/
+}
 .legende
 {
     font-size: 16px;
     font-weight: bold;
-    margin-left: 20px;
-    margin-top: 20px; 
+   /* margin-left: 20px;
+    margin-top: 20px; */
+    justify-content: center;
+    margin-top: 10px;
+    height: 50px;
 } 
 .letop
 {
@@ -404,6 +423,13 @@ margin-top: 20px;
 {
     display: flex;
     flex-direction: column;
+}
+.idees
+{
+    margin-top:0px;
+}
+.Marseille{
+    margin-top: 0px;
 }
 #basdepage
 {

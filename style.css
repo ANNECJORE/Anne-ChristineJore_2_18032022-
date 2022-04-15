@@ -27,7 +27,7 @@ h4
     margin-top :0%;
 }
 p
-{
+{ 
      font-size: 14px;   
 }
 .accueil
@@ -194,7 +194,7 @@ padding-left: 20px;
 .icone{
     position: absolute;
     color: #065FFC ;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     border-radius: 50% ;
     background-color: #DEEBFF ;
@@ -212,10 +212,12 @@ padding-left: 20px;
 }
 .iconeinfo
 {
-   margin-right:20px;
+   margin-right:12px;
     color: #065FFC;
-   font-size: 25px;
-   filter:invert(30%);
+   font-size: 14px;
+    border-radius: 50%;
+    border: 2px solid #e9e4e4;   
+     padding: 5px 10px 5px 10px; 
 }
 
 h5
@@ -223,10 +225,13 @@ h5
     font-size: 16px;
     font-weight: bold;
    margin-top: -8px;
+   margin-left: 10px;
 }
 .aulit
 {
-    width:75%
+     
+   display:flex;
+    flex-direction: column;
 }
 .foto
 {
@@ -237,8 +242,15 @@ overflow: hidden;
 object-fit: cover;
 margin-bottom: 10px;
 }
+.dodo
+{
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
 .photo
-{ 
+{   
+    display: flex;
+    flex-direction: column;
     border: 5px solid;
     border-color:white ;
     border-radius: 15px 15px 15px 15px;
@@ -250,16 +262,12 @@ margin-bottom: 10px;
     margin-left: 5px;
     box-shadow: 3px 3px 3px #e9e4e4 ;
 } 
-/*
-.titre
+.etoiles
 {
-    margin-top :-15px; 
-    width: 25%;
-    border-radius: 0px 0px 15px 15px;
-    font-size: 16px;
-    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 10px;
 }
-*/
+ 
 #section2 {
     display: flex;
     margin-left: 45px;
@@ -270,7 +278,6 @@ margin-bottom: 10px;
 #Hebergements
 {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     width:98%;
     height:450px;
@@ -290,9 +297,7 @@ margin-bottom: 10px;
 {
     display: flex;
     flex-wrap: wrap;
-    width: 82%;
     justify-content: flex-start;
-  
 }
 .dodo
 {
@@ -300,10 +305,7 @@ margin-bottom: 10px;
     display: flex;
     flex-wrap: wrap;
 }
-h5
-{
-    font-size: 16px;
-}
+ 
 .bleu
 {   color:#065FFC ;
     font-size: x-small;

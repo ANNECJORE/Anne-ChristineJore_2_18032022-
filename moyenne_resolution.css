@@ -166,11 +166,10 @@ width:100%;
 .mieux
 {
     width: 48%;
-    height: 121px;
+    height: 124px;
     padding-right: 4px;
-    border: 3px white solid;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border:0px;
+    border-bottom: 0px;
     overflow: hidden;
     object-fit: cover;
 }
@@ -183,20 +182,22 @@ width:100%;
  }
 .meilleureschambres
 {
-    border: 3px white solid;
+    border: 4px  #F2F2F2 solid;
     background-color: white;
-    border-bottom: 3px white solid;
+    
     border-radius: 10px 10px 10px 10px;
     margin-bottom: 30px;
     width: 150%;
     height: 125px;
-    margin-left: 10px;
+    margin-left: 15px;
+    margin-right: -10px;
 }
 aside
 {
-    background-color:#DEEBFF ;
+    background-color:white ;
+    border:12px solid #DEEBFF;
     border-radius: 10px 10px 10px 10px;
-    width: 98%;
+    width: 95%;
     height:250px ;
    padding-left: 15px;
    padding-right: 0px;
@@ -236,7 +237,7 @@ aside
 {
     font-size: 13px;
 }
-
+/*activités*/
 .ajuste
 {
     font-size: 14px ;
@@ -245,19 +246,14 @@ aside
 #Activites
 {
     display: flex;
-    margin-left: 45px;
-    margin-bottom: 35px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 #basdepage
-{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    background-color:#F2F2F2; 
-    position: absolute;
-    margin-top: 30px;
-    left:0px;
-    right: 0px; 
+{   
+     margin-top: 20px;
+    margin-left:30px;
+    Margin-right: 30px; 
 }
 .pied li 
 {

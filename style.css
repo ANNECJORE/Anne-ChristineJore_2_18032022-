@@ -473,12 +473,11 @@ aside
 {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
     background-color:#F2F2F2; 
     position: absolute;
     margin-top: 30px;
     left:0px;
-    right: 0px; 
+    right: 0px;  
 }
 .pied li 
 {

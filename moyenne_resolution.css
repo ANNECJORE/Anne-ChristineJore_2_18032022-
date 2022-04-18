@@ -66,10 +66,8 @@ padding-left: 20px;
 }
 #formulaire
 {
-    display: flex ;
     height: 50px;
     justify-content:center ;
-    width: 81%;
     margin-bottom: 30px;
 }
 .iconegeo {
@@ -119,12 +117,6 @@ padding-left: 20px;
     display: flex;
 }
 /*hebergement*/
- 
-.foto
-{
-width:100%;
-}
- 
 .titre
 {
     margin-top :-15px; 
@@ -167,26 +159,20 @@ width:100%;
 {
     width: 48%;
     height: 124px;
-    padding-right: 4px;
+    padding-right: 2px;
     border:0px;
     border-bottom: 0px;
-    overflow: hidden;
-    object-fit: cover;
 }
 .best
  {
-    flex-direction: column;  
     width:48%;
-     justify-content: flex-start;
-     flex-wrap: nowrap;
+    flex-wrap: nowrap;
  }
 .meilleureschambres
 {
     border: 4px  #F2F2F2 solid;
-    background-color: white;
-    
-    border-radius: 10px 10px 10px 10px;
-    margin-bottom: 30px;
+    justify-content: flex-start;
+    margin-bottom:0px;
     width: 150%;
     height: 125px;
     margin-left: 15px;
@@ -196,13 +182,10 @@ aside
 {
     background-color:white ;
     border:12px solid #DEEBFF;
-    border-radius: 10px 10px 10px 10px;
     width: 95%;
-    height:250px ;
+    height:215px ;
    padding-left: 15px;
-   padding-right: 0px;
-   margin-right:-10px;
-
+   margin-right:-10px;    
 }
 .essailongueur
 {
@@ -210,12 +193,12 @@ aside
     justify-content: space-around;
     align-items: stretch;
     width: 95%;
+    margin-bottom: 0px;
 }
 #popu
 {
-    display: flex;
+    margin-bottom: 0px;
     justify-content: flex-start;
-    margin-bottom: 20px ;
     color:#0065FC ;
 }
 .graph
@@ -224,11 +207,7 @@ aside
     margin-left: 25px;
     margin-top: 15px;
 }
-.comment  
-{
-    background-color: white;
-    width:40%;
-}
+
 .nuit
 {
     margin-top: -15px;
@@ -236,6 +215,7 @@ aside
 .prix
 {
     font-size: 13px;
+    margin-right: -2px;
 }
 /*activités*/
 .ajuste
@@ -245,18 +225,15 @@ aside
 } 
 #Activites
 {
-    display: flex;
     margin-left: 20px;
     margin-bottom: 30px;
 }
+/*footer*/
 #basdepage
 {   
      margin-top: 20px;
     margin-left:30px;
     Margin-right: 30px; 
 }
-.pied li 
-{
-    list-style-type: none;  
-}
 
+ 

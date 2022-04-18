@@ -1,12 +1,4 @@
-html
-{
-    font-family:'Raleway';
-} 
-h1
-{
-    font-weight:bolder ;
-    font-size: medium;
-}
+ 
 .accueil
 {
     font-size: 20px;
@@ -15,22 +7,7 @@ h1
     width:70%; 
     margin: 0%;
 }
-h3
-{
-    font-size: 18px;
-    font-weight: boldER;
-    margin-left: 45px; 
-}
-h4
-{
-    font-size: 16px;
-    font-weight: bold;
-    margin-top :0%;
-}
-p
-{
-     font-size: 14px;   
-}
+ 
 #conteneur
 { 
     flex-direction: column;
@@ -74,15 +51,13 @@ p
  
 #formulaire
 {   
-    display: flex ;
-    height: 70px;
-    justify-content:flex-start ;
     width: 130%;
     margin-left: 0px;
 }
-.iconegeo {
-    height: 45px;
+.iconegeo 
+{   
     width:8%; 
+    width: 36px;
 }
 .rechercher 
 {   display: none;
@@ -96,7 +71,8 @@ p
     border:3px solid #065FFC;
     background-color: #065FFC;
 }
-.loup{
+.loup
+{
     width:31px ;
     background-color:#065FFC ;
     border: 2px solid  #065FFC;
@@ -110,20 +86,12 @@ p
    background-color: #065FFC;
    align-items: center;
 }
-.geol{
-    border-bottom:6px solid;
-    background-color: white;
-    border-top: 3px solid #F2F2F2;
-    border-bottom:3px solid #F2F2F2;
-    border-left:#F2F2F2;
-    height:55px;
+.geol
+{
     width: 200px;
-    font-weight: bold;
-    font-size: 16px;
 }
 #conteneurfiltres
-{
-    display: flex; 
+{ 
     flex-direction: column;
      align-items: flex-start;
      margin-left: 0px;
@@ -134,8 +102,7 @@ p
    flex-direction: column;
     margin-top: 20px;
    margin-bottom: 10px ;
-   justify-content: flex-start;
-  align-items: flex-start;
+    align-items: flex-start;
    margin-left: 0px;
    }  
 .ensemble
@@ -153,31 +120,21 @@ p
 { 
     margin-bottom: 15px;
 }
-    /*height:35px;
-    width: 150px;
-    border-radius: 20px 20px 20px 0px;
-    padding-left: 30px ;
-    font-weight: bold;
-    font-size: 16px;
-    margin-left: 17px;
+ 
+.choix
+{ 
     border-color:#F2F2F2;
-    background-color: white;
-}*/
-.choix{ 
-    border-color:#F2F2F2;
-    border-radius: 0px 20px 20px 0px;
-    margin-right: 20px;
     height:50px; 
-    background-color: white;
-    position: relative;
 }
 .preference:hover
 {
     background-color: rgb(51,75,153);
+    color:white ;
 }
 .preference2:hover
 {
     background-color: rgb(51,75,153);
+    color: white;
 }
  
 /*hebergement*/ 
@@ -198,7 +155,7 @@ p
 {
 height: 155px;
 width:100%;
-object-fit: over;
+ 
 }
 .etoiles
 {
@@ -248,12 +205,10 @@ object-fit: over;
 .mieux
 {
     width:42%;
-    height: 111px;
   justify-content: flex-start;
 } 
 .best
  {
-    flex-direction: column;  
     width:48%;
     align-items: center;
      justify-content:center;
@@ -262,37 +217,30 @@ object-fit: over;
  }
 .meilleureschambres
 {
-    display: flex ;
-    justify-content: space-between;
-   align-items:center  ;
+    align-items:center  ;
     margin-bottom: 10px;
     width: 95%;
     margin-left: 5px;
     margin-right: 0%;
 }
-#section2{
+#section2
+{
     margin-left: 0px;
-    display: flex ;
     flex-direction: column-reverse;
     margin-bottom: 20px;
 }
 aside
 {
-  
-    background-color:#F2F2F2 ;
     border-radius: 0px ; 
     width: 100%;
    height: auto;
    margin-bottom: 15px;
     margin-left: 0%;
-    padding-right: 0%;
-   
+    padding-right: 0%; 
 }
- 
 #group1,#group2
 {
-    display:flex;
-    flex-direction: column;
+    display:flex; 
     height: 420px;
     width: 300px;
     margin-bottom: 5px; 
@@ -316,7 +264,6 @@ aside
 }
 .moyennevue
 { 
-    height:200px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -324,7 +271,6 @@ aside
 }
 .moyennevuebis
 { 
-    height:200px;
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -348,7 +294,7 @@ aside
     flex-direction: column;
      margin-bottom: 0px; 
     height: 250px;
-    width: 200;
+    width: 100%;
 }
 .ptefoto
 {
@@ -362,25 +308,20 @@ aside
 }
 .legende
 {
-    font-size: 16px;
-    font-weight: bold;
-   /* margin-left: 20px;
-    margin-top: 20px; */
     justify-content: center;
     margin-top: 10px;
     height: 50px;
 } 
-.letop
+/*.letop
 {
    flex-direction: column;
 font-size: 16px;
 font-weight: bold;
 margin-left: 20px;
 margin-top: 20px; 
-} 
+} */
 #Activites
 {
-    display: flex;
     flex-direction: column;
 }
 .idees
@@ -393,7 +334,6 @@ margin-top: 20px;
 #basdepage
 {
     width: 100%;
-    display: flex;
     justify-content: flex-start;
     flex-direction: column;    
 }

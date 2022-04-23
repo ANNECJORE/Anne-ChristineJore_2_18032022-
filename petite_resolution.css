@@ -1,4 +1,6 @@
- 
+body{
+    margin: 0px;
+} 
 .accueil
 {
     font-size: 20px;
@@ -178,6 +180,7 @@ width:100%;
     background-color: white;
     flex-wrap: nowrap;
     padding-bottom: 5px;
+    
 } 
 .afficher
 {

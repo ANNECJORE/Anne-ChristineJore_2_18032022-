@@ -25,6 +25,7 @@ h4
     font-size: 16px;
     font-weight: bold;
     margin-top :0%;
+    margin-bottom:-20px ;
 }
 p
 { 
@@ -337,7 +338,8 @@ margin-bottom: 10px;
  {
     flex-direction: column;  
     width:46%;
-     justify-content: flex-start;
+     justify-content: space-around;
+
  }
 .meilleureschambres
 {
@@ -351,6 +353,10 @@ margin-bottom: 10px;
     width: 95%;
     height: 115px;
     margin-left: 5px;
+}
+.prix{
+    margin-bottom: 25px;
+    margin-top : 20px;
 }
 aside
 {
@@ -371,6 +377,10 @@ aside
     font-size: large;
     margin-right: 25px;
     margin-top: 15px;
+}
+.popstar
+{
+    margin-bottom: 10px;
 }
 #group1,#group2
 {
@@ -461,7 +471,8 @@ aside
 #basdepage
 {
     display: flex;
-    justify-content: space-around;
+    justify-content:flex-start;
+     
     background-color:#F2F2F2; 
     position: absolute;
     margin-top: 30px;
@@ -472,4 +483,8 @@ aside
 {
     list-style-type: none;  
 }
+ul{
+    margin-right: 180px;
+}
+
 

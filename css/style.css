@@ -82,12 +82,7 @@ margin-right:15px;
     margin-top:15px;
     margin-left: 5px;
 }
-.traitgris
-
-.traitgris :hover
-{
-    color:  #065FFC;
-}
+ 
 #formulaire
 {
     display: flex ;
